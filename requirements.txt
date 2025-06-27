@@ -1,0 +1,19 @@
+# Main libraries
+torch
+torchvision
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+opencv-python
+
+# For keypoint extraction
+rtmlib
+onnxruntime
+
+# For ball tracking (from TrackNetV3)
+parse
+# Note: Other dependencies for TrackNetV3 should be installed
+# from its own requirements.txt file.
