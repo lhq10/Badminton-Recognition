@@ -128,8 +128,15 @@ python src/train.py
 Bạn có thể dễ dàng thay đổi các tham số như learning rate, số epochs, kích thước batch, và các đường dẫn thư mục bằng cách chỉnh sửa file `src/config.py`.
 
 ## Kết quả
-Sau khi huấn luyện, script sẽ tự động đánh giá mô hình trên tập test và hiển thị:
-* Báo cáo phân loại (Classification Report) chi tiết cho từng lớp.
-* Độ chính xác (Accuracy) tổng thể.
-* Vẽ và lưu ma trận nhầm lẫn (Confusion Matrix).
-* Vẽ và lưu đồ thị quá trình huấn luyện (loss/accuracy).
+
+### Đồ thị quá trình huấn luyện
+
+Đồ thị bên trái biểu diễn độ chính xác (Accuracy), đồ thị bên phải biểu diễn hàm mất mát (Loss) trên tập huấn luyện và tập kiểm định qua các epochs.
+
+![Training History](./training_history.png)
+
+### Ma trận nhầm lẫn (Confusion Matrix)
+
+Ma trận nhầm lẫn cho thấy hiệu suất của mô hình trên từng lớp của tập dữ liệu test.
+
+![Confusion Matrix](./confusion_matrix.png)
