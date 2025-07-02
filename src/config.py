@@ -1,8 +1,8 @@
 import torch
 
 # --- 1. ĐƯỜNG DẪN THƯ MỤC ---
-# Đường dẫn bạn cần thay đổi cho phù hợp với máy tính của mình
-BASE_DIR = ".." # Thư mục gốc của dự án (Badminton_Action_Recognition)
+# Đường dẫn cần thay đổi cho phù hợp với dự án
+BASE_DIR = "D://Badminton_Action_Recognition" # Thư mục gốc của dự án (Badminton_Action_Recognition)
 
 # Đường dẫn dữ liệu đầu vào và đầu ra
 RAW_VIDEO_DIR = f"{BASE_DIR}/data/raw_videos"

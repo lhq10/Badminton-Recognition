@@ -45,14 +45,14 @@ Badminton_Action_Recognition/
 
 **a. Clone repository này:**
 ```bash
-git clone [https://github.com/your-username/Badminton-Action-Recognition.git](https://github.com/your-username/Badminton-Action-Recognition.git)
+git clone https://github.com/lhq10/Badminton-Recognition.git
 cd Badminton-Action-Recognition
 ```
 
 **b. Clone repository TrackNetV3 (dùng để theo dõi quả cầu):**
 Dự án này yêu cầu [TrackNetV3](https://github.com/qaz812345/TrackNetV3). Clone nó vào thư mục gốc của dự án.
 ```bash
-git clone [https://github.com/qaz812345/TrackNetV3.git](https://github.com/qaz812345/TrackNetV3.git)
+git clone https://github.com/qaz812345/TrackNetV3.git
 ```
 
 **c. Tạo môi trường ảo và cài đặt thư viện:**
